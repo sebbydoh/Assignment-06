@@ -3,8 +3,23 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Changa|Fredoka+One&display=swap');
+
+/* Google Fonts 
+
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Changa', sans-serif;
+
+   End Google Fonts */
+
+html {
+    background: rgb(143,141,141);
+    background: linear-gradient(0deg, rgba(143,141,141,0.9755252442773985) 0%, rgba(9,83,121,0.434908997778799) 50%, rgba(158,239,255,1) 100%);
+}
+
 body {
     font-size: 16px;
+    
 }
 
 section {
@@ -13,6 +28,15 @@ section {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+}
+
+p {
+    font-family: 'Changa', sans-serif;
 }
 
 header section {
@@ -38,4 +62,6 @@ main section div {
     border: 2px solid black;
     padding: 7px;
     line-height: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
 }
