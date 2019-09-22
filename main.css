@@ -3,3 +3,39 @@
     padding: 0;
 }
 
+body {
+    font-size: 16px;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+header section {
+    border: 2px dashed gray;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+main section {
+    border: 4px groove black;
+    background-color: aquamarine;
+}
+
+main section h1 {
+    margin-bottom: 0.5em;
+}
+main section p {
+    margin-bottom: 0.5em;
+}
+
+main section div {
+    border: 2px solid black;
+    padding: 7px;
+    line-height: 2em;
+}
